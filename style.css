@@ -1,0 +1,15 @@
+* { 
+	box-sizing: border-box;
+}
+html, body {
+	min-height: 100%;
+	background: white;
+	color: white;
+}
+
+.div1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	background-color: #1F2937;
+}
