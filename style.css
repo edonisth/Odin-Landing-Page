@@ -1,53 +1,76 @@
-* { 
-	box-sizing: border-box;
-}
-html, body {
-	min-height: 100%;
-	background: white;
-	color: white;
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+body {
+	margin: 0%;
+	font-family: 'Roboto Slab', serif;
 }
 
-.container {
+.container1 {
     display: flex;
 	background-color: #1F2937;
 	padding: 100px;
-	margin: 0;
-	justify-content: space-between;
+	margin: 0 auto;
 	gap: 20px;
+	color: white;
 }
+
 
 .logo {
-	margin: 0;
-	padding: 0;
+	margin: auto;
+	padding: 0px;
 	border-color: red;
 	border: 5px solid red;
-	
-
+	font-size: 20px;
 }
 
-.header1 {
+.list1 {
 	border-color: red;
 	border: 5px solid red;
+	margin: auto;
+	padding: 0px;
 }
+
+/*
+.navbar-left {
+	display: flex;
+	align-items: flex-start;
+}
+
+.navbar-right {
+	display: flex;
+	align-items: flex-end;
+}
+
+
+
+
+
+
 
 .text {
+	margin: auto;
+	padding: 0px;
 	border-color: red;
 	border: 5px solid red;
 }
 
 .button {
+	margin: auto;
+	padding: 0px;
 	border-color: red;
 	border: 5px solid red;
 }
 
 .list1 {
-
+	margin: auto;
+	padding: 0px;
 	border-color: red;
 	border: 5px solid red;
 }
 
 .image1 {
-
+	margin: auto;
+	padding: 0px;
 	border-color: red;
 	border: 5px solid red;
 }
