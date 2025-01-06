@@ -1,3 +1,5 @@
+
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
 
 body {
@@ -39,7 +41,7 @@ ul {
 	align-items: center;
 }
 
-/* NAVBAR ENDS HERE*/
+/*NAVBAR ENDS HERE */
 
 .content {
 	display: flex;
@@ -47,17 +49,48 @@ ul {
 	padding: 20px;
 	background-color: #1F2937;
 	justify-content: center;
-	align-items: center;
+	align-content: center;
+	padding: 80px;
+	margin: 0 auto;
+	gap: 20px;
 }
 
-.content-left,
+.content-left {
+	display: flex;
+	flex-direction: column;
+	gap: 0%;
+	color: white;
+	align-content: center;
+	justify-content: center;
+}
+
 .content-right {
-	flex: 1; 
-	color: #D1D5DB;
+	display: flex;
+	justify-items: flex-end;
+	align-items: flex-end;
+}
+
+p.content-left {
+	padding: 0;
+	margin: 0;
+}
+
+h1.content-left {
+	margin: 0;
+	padding: 0;
 }
 
 .content-right img {
-	max-width: 100%;
+	max-width: 90%;
 	height: auto;
-	border-radius: 10px;
+}
+
+#button {
+	background-color: #3882F6;
+	color: white;
+	border-radius: 10%;
+	width: 95px;
+	height: 30px;
+    border: none;
+	cursor: pointer;
 }
