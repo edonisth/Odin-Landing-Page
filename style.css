@@ -1,96 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+15&family=Roboto+Slab&display=swap');
 
-
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
-
-body {
-	margin: 0%;
-	font-family: 'Roboto Slab', serif;
-}
-
-.container1 {
-	background-color: #1F2937;
-	padding: 10px;
-	margin: 0 auto;
-	gap: 20px;
-	color: white;
-}
-
-.navbar {
+/* General Reset and Styling */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+  }
+  
+  body {
+	font-family: 'Roboto', Arial, Helvetica, sans-serif; /* Main font for the body */
+	color: #000000; /* Default text color for the rest of the page */
+	background-color: #ffffff; /* Default background for the rest of the page */
+  }
+  
+  .container {
+	width: 80%;
+	max-width: 1200px;
+	margin: 0 auto; /* Center horizontally */
+  }
+  
+  /* Header */
+  .header {
 	display: flex;
-}
-
-#logo {
-	font-size: 24px;
-	color: #F9FAf8
-}
-
-ul {
+	justify-content: space-between; /* Logo on the left, links on the right */
+	align-items: center; /* Vertically align logo and links */
+	padding: 20px 0;
+	background-color: #1e293b;
+  }
+  
+  .nav-links {
 	display: flex;
-}
+	justify-content: flex-end; /* Ensure links are aligned to the end */
+  }
+  
+  .nav-links a {
+	margin-left: 20px; /* Add spacing between links */
+	color: #ffffff;
+	text-decoration: none;
+	font-size: 14px;
+	font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  }
+  
+  
+  .logo {
+	font-size: 22px;
+	font-family: 'Roboto Slab', serif; /* Header uses Roboto Slab */
+	font-weight: bold;
+	color: #ffffff;
+  }
+  
 
-.header-link {
-	font-size: 18px;
-	color: #E5E7EB;
-	margin: 10px;
-}
-
-.navbar-left,.navbar-right {
+  
+  /* Main Content */
+  .main-content {
+	padding: 50px 0; /* Add vertical spacing */
+	background-color: #1e293b; /* Dark background for the first section only */
+  }
+  
+  .main-content .container {
 	display: flex;
-	width: 50%;
-	justify-content: center;
-	align-items: center;
-}
-
-/*NAVBAR ENDS HERE */
-
-.content {
-	display: flex;
-	gap: 20px;
-	padding: 20px;
-	background-color: #1F2937;
-	justify-content: center;
-	align-content: center;
-	padding: 80px;
-	margin: 0 auto;
-	gap: 20px;
-}
-
-.content-left {
+	justify-content: space-between;
+	align-items: center; /* Align vertically */
+  }
+  
+  .text-content {
+	max-width: 45%;
 	display: flex;
 	flex-direction: column;
-	gap: 0%;
-	color: white;
-	align-content: center;
-	justify-content: center;
-}
-
-.content-right {
-	display: flex;
-	justify-items: flex-end;
-	align-items: flex-end;
-}
-
-p.content-left {
-	padding: 0;
-	margin: 0;
-}
-
-h1.content-left {
-	margin: 0;
-	padding: 0;
-}
-
-.content-right img {
-	max-width: 90%;
-	height: auto;
-}
-
-#button {
-	background-color: #3882F6;
-	color: white;
-	border-radius: 10%;
-	width: 95px;
-	height: 30px;
-    border: none;
+	justify-content: center; /* Vertical alignment for text */
+  }
+  
+  .text-content h1 {
+	font-size: 36px;
+	font-family: 'Roboto Slab', serif; /* Use Roboto Slab for the heading */
+	font-weight: bold;
+	margin-bottom: 10px;
+	color: #ffffff; /* Ensure text matches the dark background */
+  }
+  
+  .text-content p {
+	font-size: 16px;
+	font-family: 'Roboto', Arial, Helvetica, sans-serif; /* Use Roboto for body text */
+	color: #cbd5e1; /* Lower contrast for subtext */
+	margin-bottom: 20px;
+  }
+  
+  .signup-button {
+	background-color: #3b82f6;
+	color: #ffffff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	width: 80px;
 	cursor: pointer;
-}
+	font-size: 16px;
+	font-family: 'Roboto', Arial, Helvetica, sans-serif; /* Button text stays consistent */
+  }
+  
+  .signup-button:hover {
+	background-color: #2563eb;
+  }
+  
+  .image-placeholder {
+	width: 45%;
+	height: 300px;
+	background-color: #475569;
+	display: flex;
+	justify-content: center;
+	align-items: center; /* Center text in placeholder */
+	color: #cbd5e1;
+	font-size: 14px;
+	font-family: 'Roboto', Arial, Helvetica, sans-serif; /* Ensure text in placeholder matches */
+  }
+  
