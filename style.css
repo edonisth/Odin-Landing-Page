@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Jersey+15&family=Roboto+Slab&display=swap');
 
-/* General Reset and Styling */
 * {
 	margin: 0;
 	padding: 0;
@@ -9,7 +8,6 @@
   
   body {
 	font-family: 'Roboto', Arial, Helvetica, sans-serif; /* Main font for the body */
-	color: #000000; /* Default text color for the rest of the page */
 	background-color: #ffffff; /* Default background for the rest of the page */
   }
   
@@ -84,14 +82,15 @@
 	color: #cbd5e1; /* Lower contrast for subtext */
 	margin-bottom: 20px;
   }
-  
+
   .signup-button {
 	background-color: #3b82f6;
 	color: #ffffff;
-	padding: 10px 20px;
+	padding: 5x 20px;
 	border: none;
 	border-radius: 5px;
-	width: 80px;
+	width: 95px;
+	height: 30px;
 	cursor: pointer;
 	font-size: 16px;
 	font-family: 'Roboto', Arial, Helvetica, sans-serif; /* Button text stays consistent */
@@ -112,4 +111,28 @@
 	font-size: 14px;
 	font-family: 'Roboto', Arial, Helvetica, sans-serif; /* Ensure text in placeholder matches */
   }
-  
+
+  .second-content > h1 {
+	display: flex;
+	align-items: center;
+	font-family: 'Roboto', Arial, Helvetica, sans-serif; /* Ensure text in placeholder matches */
+
+  }
+
+  .boxes {
+	display: flex;
+	flex-direction: row;
+	align-content: center;
+	justify-content: space-between;
+	flex-wrap: nowrap;
+	background-color: #3b82f6;
+  }
+
+  .boxes > div {
+	background-color: #f1f1f1;
+	width: 100px;
+	margin: 10px;
+	text-align: center;
+	line-height: 75px;
+	font-size: 30px;
+  }
