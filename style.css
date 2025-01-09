@@ -112,6 +112,10 @@
 	font-family: 'Roboto', Arial, Helvetica, sans-serif; /* Ensure text in placeholder matches */
   }
 
+  .second-content {
+	background-color: #ffffff;
+  }
+
   .second-content > h1 {
 	display: flex;
 	align-items: center;
@@ -119,20 +123,36 @@
 
   }
 
-  .boxes {
+
+
+  .h1-2nd {
 	display: flex;
-	flex-direction: row;
-	align-content: center;
-	justify-content: space-between;
-	flex-wrap: nowrap;
-	background-color: #3b82f6;
+	justify-content: center;
+	align-items: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
   }
 
-  .boxes > div {
-	background-color: #f1f1f1;
-	width: 100px;
-	margin: 10px;
-	text-align: center;
-	line-height: 75px;
-	font-size: 30px;
-  }
+  .boxes {
+    display: flex; /* Arrange boxes horizontally */
+    justify-content: space-between; /* Space out the boxes */
+    gap: 25px; /* Add spacing between boxes */
+    align-items: flex-start; /* Align items to the top */
+}
+
+.boxes > div {
+    text-align: center; /* Center text under the box */
+}
+
+.box {
+    width: 150px;
+    height: 100px;
+    background-color: lightblue; /* Box styling */
+    margin-bottom: 10px; /* Space between box and text */
+}
+
+.boxes p {
+    font-size: 14px;
+    color: #333;
+    margin: 0; /* Remove default paragraph margin */
+}
