@@ -7,32 +7,32 @@
   }
   
   body {
-	font-family: 'Roboto', Arial, Helvetica, sans-serif; /* Main font for the body */
-	background-color: #ffffff; /* Default background for the rest of the page */
+	font-family: 'Roboto', Arial, Helvetica, sans-serif; 
+	background-color: #ffffff; 
   }
   
   .container {
 	width: 80%;
 	max-width: 1200px;
-	margin: 0 auto; /* Center horizontally */
+	margin: 0 auto; 
   }
   
   /* Header */
   .header {
 	display: flex;
-	justify-content: space-between; /* Logo on the left, links on the right */
-	align-items: center; /* Vertically align logo and links */
+	justify-content: space-between; 
+	align-items: center; 
 	padding: 20px 0;
 	background-color: #1e293b;
   }
   
   .nav-links {
 	display: flex;
-	justify-content: flex-end; /* Ensure links are aligned to the end */
+	justify-content: flex-end; 
   }
   
   .nav-links a {
-	margin-left: 20px; /* Add spacing between links */
+	margin-left: 20px; 
 	color: #ffffff;
 	text-decoration: none;
 	font-size: 14px;
@@ -42,45 +42,44 @@
   
   .logo {
 	font-size: 22px;
-	font-family: 'Roboto Slab', serif; /* Header uses Roboto Slab */
+	font-family: 'Roboto Slab', serif; 
 	font-weight: bold;
 	color: #ffffff;
   }
   
 
   
-  /* Main Content */
+  /* Main Content - First */
   .main-content {
-	padding: 50px 0; /* Add vertical spacing */
-	background-color: #1e293b; /* Dark background for the first section only */
+	padding: 50px 0; 
+	background-color: #1e293b; 
   }
   
   .main-content .container {
 	display: flex;
 	justify-content: space-between;
-	align-items: center; /* Align vertically */
+	align-items: center; 
   }
   
   .text-content {
 	max-width: 45%;
 	display: flex;
 	flex-direction: column;
-	justify-content: center; /* Vertical alignment for text */
+	justify-content: center; 
   }
   
   .text-content h1 {
 	font-size: 36px;
-	font-family: 'Roboto Slab', serif; /* Use Roboto Slab for the heading */
-	font-weight: bold;
+	font-family: 'Roboto Slab', serif; 
 	margin-bottom: 10px;
-	color: #ffffff; /* Ensure text matches the dark background */
+	color: #ffffff; 
   }
   
   .text-content p {
 	font-size: 16px;
-	font-family: 'Roboto', Arial, Helvetica, sans-serif; /* Use Roboto for body text */
-	color: #cbd5e1; /* Lower contrast for subtext */
+	font-family: 'Roboto', Arial, Helvetica, sans-serif; 
 	margin-bottom: 20px;
+	color: white;
   }
 
   .signup-button {
@@ -93,7 +92,7 @@
 	height: 30px;
 	cursor: pointer;
 	font-size: 16px;
-	font-family: 'Roboto', Arial, Helvetica, sans-serif; /* Button text stays consistent */
+	font-family: 'Roboto', Arial, Helvetica, sans-serif; 
   }
   
   .signup-button:hover {
@@ -106,20 +105,28 @@
 	background-color: #475569;
 	display: flex;
 	justify-content: center;
-	align-items: center; /* Center text in placeholder */
+	align-items: center; 
 	color: #cbd5e1;
 	font-size: 14px;
-	font-family: 'Roboto', Arial, Helvetica, sans-serif; /* Ensure text in placeholder matches */
+	font-family: 'Roboto', Arial, Helvetica, sans-serif; 
   }
+
+    /* Main Content - Second */
 
   .second-content {
 	background-color: #ffffff;
+	display: flex;
+	padding: 0;
+	margin: 0 40px;
+	width: 80%;
+	padding-bottom: 80px;
+
   }
 
   .second-content > h1 {
 	display: flex;
 	align-items: center;
-	font-family: 'Roboto', Arial, Helvetica, sans-serif; /* Ensure text in placeholder matches */
+	font-family: 'Roboto', Arial, Helvetica, sans-serif; 
 
   }
 
@@ -133,26 +140,38 @@
 	padding-bottom: 50px;
   }
 
+  h1.h1-2nd {
+	font-family: 'Roboto', Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 26px;
+  }
+
   .boxes {
-    display: flex; /* Arrange boxes horizontally */
-    justify-content: space-between; /* Space out the boxes */
-    gap: 25px; /* Add spacing between boxes */
-    align-items: flex-start; /* Align items to the top */
+    display: flex; 
+    justify-content: space-between; 
+    gap: 20px; 
+    align-items: flex-start; 
+	
 }
 
 .boxes > div {
-    text-align: center; /* Center text under the box */
+    text-align: center; 
 }
 
 .box {
-    width: 150px;
-    height: 100px;
-    background-color: lightblue; /* Box styling */
-    margin-bottom: 10px; /* Space between box and text */
+    width: 200px;
+    height: 150px;
+    margin-bottom: 10px; 
+	border: 3px solid #2563eb;
+	border-radius: 10%;
 }
 
 .boxes p {
     font-size: 14px;
     color: #333;
-    margin: 0; /* Remove default paragraph margin */
+    margin: 0; 
 }
+
+  /* Main Content - Third */
+
+
