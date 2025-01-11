@@ -16,6 +16,7 @@
 	width: 80%;
 	max-width: 1200px;
 	margin: 0 auto; 
+	overflow: hidden; 
   }
   
   /* Header */
@@ -36,13 +37,13 @@
 	margin-left: 20px; 
 	color: #ffffff;
 	text-decoration: none;
-	font-size: 14px;
+	font-size: 17px;
 	font-family: 'Roboto', Arial, Helvetica, sans-serif;
   }
   
   
   .logo {
-	font-size: 22px;
+	font-size: 30px;
 	font-family: 'Roboto Slab', serif; 
 	font-weight: bold;
 	color: #ffffff;
@@ -119,7 +120,6 @@
 	margin: 0 auto;
 	width: 100%;
 	padding-bottom: 80px;
-
   }
 
   .second-content > h1 {
@@ -133,6 +133,7 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	font-size: 36px;
 	padding-top: 50px;
 	padding-bottom: 50px;
   }
@@ -149,7 +150,7 @@
   .boxes {
     display: flex; 
     justify-content: center; 
-    gap: 20px; 
+    gap: 50px; 
     padding: 0;
 	
 }
@@ -160,14 +161,14 @@
 
 .box {
     width: 180px;
-    height: 150px;
+    height: 180px;
     margin-bottom: 10px; 
 	border: 3px solid #2563eb;
 	border-radius: 10%;
 }
 
 .boxes p {
-    font-size: 14px;
+    font-size: 19px;
     color: #333;
 
 }
@@ -175,9 +176,93 @@
   /* Main Content - Third */
 
 
-.third-container {
+.third-content {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #e5e7eb;	
+	padding-top: 140px;
+	padding-bottom: 140px;
+}
+
+.quote {
+	font-size: 36px;
+	font-style: italic;
+	font-family: 'Helvetica', 'Arial', sans-serif; 
+	color: #595a5b;
+	font-weight: 300;
+}
+
+.author h1 {
+	display: flex;
+	align-content: end;
+	justify-content: end;
+	padding: 0;
+	margin: 0;
+	font-weight: bold;
+}
+
+  /* Main Content - Fourth */
+
+  .fourth-content {
+	display: flex;
+	align-items: center;
+	background-color: white;	
+	padding-top: 150px;
+	padding-bottom: 150px;
+  }
+
+  .sign-up {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: #3b82f6;
+	padding: 60px;
+	border-radius: 5px;
+  }
+
+  .sign-up > h1 {
+	color: white;
+  }
+
+  .sign-up > p {
+	color: white;
+  }
+
+  .signup-button2 {
+	background-color: #3b82f6;
+	color: #ffffff;
+	padding: 10x 25px;
+	border: none;
+	outline: 1px solid #ffffff;
+	border-radius: 5px;
+	width: 120px;
+	height: 40px;
+	cursor: pointer;
+	font-size: 20px;
+	font-family: 'Roboto', Arial, Helvetica, sans-serif; 
+  }
+
+  .fourth-text {
+	display: flex;
+	align-items: flex-start;
+	align-content: flex-start;
+	flex-direction: column;
+	color: white;
+  }
+
+    /* Last Content - Footer */
+
+  .footer {
 	display: flex;
 	justify-content: center;
-	padding-top: 100px;
-	background-color: black;
+	align-items: center;
+	background-color: #1e293b;
+	color: white;
+	height: 100px;
+  }
+
+.footer p {
+	font-size: 20px;
+	font-family: 'Roboto', Arial, Helvetica, sans-serif; 
 }
